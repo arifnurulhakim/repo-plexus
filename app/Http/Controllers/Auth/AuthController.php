@@ -95,7 +95,7 @@ class AuthController extends ResponseController
 
             Mail::to($request->email)->send(new SendResetPassword($code, $user->name));
 
-            return $this->sendSuccess(null,'OTP send successfully to'.$request->email,200);
+            return $this->sendSuccess('code OTP : ' .$code,'OTP send successfully to ' .$request->email,200);
     }
 
     public function resetPassword(Request $request)
