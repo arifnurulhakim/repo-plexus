@@ -35,12 +35,13 @@ php artisan db:seed <br>
 php artisan key:generate <br>
 php artisan serve <br>
 
-note : - SMTP tetap masuk ke sendinBlue
-       - db tidak pakai yang heroku
+note : - SMTP tetap masuk ke sendinBlue <br>
+       - db tidak pakai yang heroku <br>
+------------------------------------------------------<br>
 
 SMTP------------------------------------------------<br>
-EMAIL SENDER : plexus.otp@gmail.com
-provider : sandinBlue
+EMAIL SENDER : plexus.otp@gmail.com <br>
+provider : sandinBlue <br>
 ----------------------------------------------------<br>
 <br>
 
