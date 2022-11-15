@@ -29,6 +29,7 @@ missing---------------------------------------------<br>
 <br>
 run local-------------------------------------------<br>
 
+composer install atau composer update <br>
 ubah .env.local ke .env (sesuaikan db local) <br>
 php artisan migrate:refresh <br>
 php artisan db:seed <br>
