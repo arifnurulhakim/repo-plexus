@@ -1,24 +1,48 @@
 <H1>TEST PLEXUS</H1>
 
-<h3>link postman :</h3>
-<h4>https://app.getpostman.com/join-team?invite_code=7e63d28232317b5cee431f0d219e1ee9&target_code=c7ab1c7926f9164827d5deaf7edb08e7</h4>
+postman-----------------------------------------------<br>
+link postman : https://app.getpostman.com/join-team?invite_code=7e63d28232317b5cee431f0d219e1ee9&target_code=c7ab1c7926f9164827d5deaf7edb08e7 <br>
 <p>ini link postman untuk join team, agar memudahkan testing</p>
-<p>db : postgresql (heroku postgres)</p>
+
+untuk API heroku gunakan environment heroku <br>
+masukan access_token di environment heroku <br>
+<br>
+untuk API local gunakan environment local <br>
+masukan access_token di environment local <br>
+-------------------------------------------------------<br>
+<br>
+heroku----------------------------------------------<br>
+link heroku : https://test-plexus.herokuapp.com/  <br>
+db : postgresql (heroku postgres) <br>
+deploy method : github <br>
+--------------------------------------------------<br>
+<br>
+clear-----------------------------------------------<br>
 <p>deploy menggunakan heroku(clear)</p>
-<p>forgot password(clear) note : SMTP menggunakan SendinBlue</p>
+<p>forgot password(clear)</p>
+-----------------------------------------------------<br>
+<br>
+missing---------------------------------------------<br>
+<p> img avatar (miss)</p>
+<p> achievement (miss)</p>
+----------------------------------------------------<br>
+<br>
+run local-------------------------------------------<br>
 
-<p>img avatar (miss)</p>
-<p>acipment (miss)</p>
+ubah .env.local ke .env (sesuaikan db local) <br>
+php artisan migrate:refresh <br>
+php artisan db:seed <br>
+php artisan key:generate <br>
+php artisan serve <br>
 
-run local
+note : - SMTP tetap masuk ke sendinBlue
+       - db tidak pakai yang heroku
 
-ubah .env.local ke .env (sesuaikan db local)
-php artisan migrate:refresh
-php artisan db:seed
-php artisan key:generate
-php artisan serve
-
-note : SMTP tetap masuk ke sendinBlue
+SMTP------------------------------------------------<br>
+EMAIL SENDER : plexus.otp@gmail.com
+provider : sandinBlue
+----------------------------------------------------<br>
+<br>
 
 
 
