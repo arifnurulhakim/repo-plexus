@@ -31,7 +31,7 @@ class SendResetPassword extends Mailable
      */
     public function build()
     {
-        return $this->from('qkblbw+28d15m7todx8meet0@sharklasers.com', 'hakim')
+        return $this->from('nicholi.aspen@fallinhay.com', 'hakim')
                     ->view('send-reset-password')
                     ->subject('Noreply Reset Password Code')
                     ->with([
