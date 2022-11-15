@@ -1,3 +1,46 @@
+<H1>TEST PLEXUS</H1>
+
+<h3>link postman :</h3>
+<h4>https://app.getpostman.com/join-team?invite_code=7e63d28232317b5cee431f0d219e1ee9&target_code=c7ab1c7926f9164827d5deaf7edb08e7</h4>
+<p>ini link postman untuk join team, agar memudahkan testing</p>
+<p>db : postgresql (heroku postgres)</p>
+<p>deploy menggunakan heroku(clear)</p>
+<p>forgot password(clear) note : SMTP menggunakan SendinBlue</p>
+
+<p>img avatar (miss)</p>
+<p>acipment (miss)</p>
+
+run local
+
+ubah .env.local ke .env (sesuaikan db local)
+php artisan migrate:refresh
+php artisan db:seed
+php artisan key:generate
+php artisan serve
+
+note : SMTP tetap masuk ke sendinBlue
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
